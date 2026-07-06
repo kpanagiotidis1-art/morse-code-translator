@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morse Code Translator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Morse code translator</h1>
+      <p class="subtitle">Type in English or Morse and translate instantly</p>
+    </header>
+
+    <div class="output-grid">
+      <div class="output-box active" id="english-box">
+        <div class="box-label">English</div>
+        <div class="box-content" id="english-output"></div>
+      </div>
+
+      <div class="output-box muted" id="morse-box">
+        <div class="box-label">Morse</div>
+        <div class="box-content" id="morse-output"></div>
+      </div>
+    </div>
+
+    <div class="input-wrap">
+      <div class="box-label">Input</div>
+      <textarea id="input" placeholder="Start typing..."></textarea>
+    </div>
+
+    <div class="kb-header">
+      <span class="box-label">Keyboard reference</span>
+      <div class="kb-toggle">
+        <button class="kb-toggle-btn active" id="toggle-english">English</button>
+        <button class="kb-toggle-btn" id="toggle-morse">Morse</button>
+      </div>
+    </div>
+
+    <div class="keyboard" id="keyboard"></div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
