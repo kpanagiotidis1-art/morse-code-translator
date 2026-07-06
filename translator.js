@@ -68,4 +68,4 @@ function morseToEnglish(input) {
   return english.join("")
 }
 
-export { morseCode, englishToMorse, morseToEnglish }
+module.exports = { morseCode, englishToMorse, morseToEnglish }

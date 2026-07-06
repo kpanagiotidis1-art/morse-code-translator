@@ -1,0 +1,24 @@
+{
+  "name": "morse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpanagiotidis1-art/morse-code-translator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kpanagiotidis1-art/morse-code-translator/issues"
+  },
+  "homepage": "https://github.com/kpanagiotidis1-art/morse-code-translator#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
